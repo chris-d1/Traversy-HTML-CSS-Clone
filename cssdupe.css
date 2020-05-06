@@ -1,0 +1,178 @@
+#body {
+  background-color:#f4f4f4;
+  width:80%;
+  margin:auto;
+  padding:20px;
+  font-family:sans-serif;
+  font-size:16px;
+  line-height:1.6em;
+}
+
+a:visited {
+	color:white;
+}
+
+.navbar {
+	position: fixed;
+	top:25em;
+	left:0em;
+	color:white;
+	background:black;
+	border:none;
+	padding: 13px 15px;
+	text-decoration: underline;
+	font-size:16px;
+
+}
+
+.navbar:hover {
+	background:red;
+
+}
+
+.hello-box {
+	background:black;
+	color:white;
+	border-color:blue;
+	border-width:5px;
+	border-style:solid;
+	padding:0 20px 20px 20px;
+	margin-bottom:20px;
+}
+
+.hello-h1 {
+	font-size:35px;
+	font-weight: bold;
+	font-style:italic;
+	letter-spacing:.2em;
+	text-decoration:underline;
+}
+
+.hello-text {
+	margin-top:-25px;
+}
+
+.goodbye-box {
+	background:#f4f4f4;
+	color:white;
+	border-color:#d4d4d4;
+	border-width:3px;
+	border-style:dotted;
+	padding:0 20px 20px 20px;
+	margin-bottom:20px;
+
+}
+
+.goodbye-h1 {
+	font-size:35px;
+	color:black;
+	
+}
+
+.goodbye-text {
+	line-height: 1.6em;
+	margin-top:-25px;
+	color:black;
+}
+
+.readmore {
+	color:white;
+	background:black;
+	border:none;
+	padding: 13px 15px;
+	text-decoration: underline;
+	font-size:16px;
+
+}
+
+.readmore:hover {
+	background:red;
+
+}
+
+#categories-box {
+
+	border-color:blue;
+	border-width:4px;
+	border-style:solid;
+	border-radius:1em;
+	margin-bottom:20px;
+}
+
+.ul {
+	list-style:none;
+	
+}
+
+.h2 {
+	text-align:center;
+
+}
+
+.fields {
+	width:100%;
+	height:40px;
+	margin-bottom:20px;
+}
+
+.submit {
+	color:white;
+	background:black;
+	border:none;
+	padding: 8px 15px;
+	font-size:14px;
+	margin-bottom:20px;
+}
+
+.submit:hover {
+	background:red;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.three-across {
+	border-style:solid;
+	border-width:1px;
+	border-color:gray;
+	width:33.3%;
+	float:left;
+	padding:10px;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.two-across {
+	float:left;
+	padding:10px;
+}
+
+
+.container {
+	clear: both;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	align-content:center;
+}
+
+.top-left {
+	position:relative;
+	bottom:18em;
+	left:5em;
+}
+
+.bottom-right {
+	position:relative;
+	bottom:8em;
+	right:-20em;
+}
+
+.bullets {
+	clear:both;
+	background:red;
+}
